@@ -37,6 +37,8 @@ gtag('config', 'G-ZKJJKWNB34');
     --yellow-dark:#D99600;
     --yellow-light:#FFF7DD;
 
+    --red-accent: #E53935;
+
     --text:#1C2833;
     --sub:#607080;
     --line:#DCE5EE;
@@ -412,7 +414,11 @@ gtag('config', 'G-ZKJJKWNB34');
     font-weight:900;
   }
 
-  .free{ color:#E53935; font-weight:900; }
+    .free-badge {
+    display: inline-block; background: var(--red-accent); color: #fff;
+    font-size: 12px; font-weight: 1000; padding: 3px 5px; border-radius: 50px;
+    vertical-align: middle; margin-left: 7px;
+  }
 
   /* ===== page footer bar ===== */
   .page-footer {
@@ -756,7 +762,7 @@ gtag('config', 'G-ZKJJKWNB34');
         </div>
         <div class="flow-card">
           <div class="flow-num">STEP 02</div>
-          <div class="flow-text">法人登録<br><span class="free">（無料）</span></div>
+          <div class="flow-text">法人登録<span class="free-badge">無料</span></div>
         </div>
         <div class="flow-card">
           <div class="flow-num">STEP 03</div>
